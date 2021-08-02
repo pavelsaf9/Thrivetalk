@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1140px;
+}
+
+@font-face {
+    font-family: Gilroy-Bold; /* Имя шрифта */
+    src: url(../font/Gilroy-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face{
+    font-family: Gilroy-Medium;
+    src: url(../font/Gilroy-Medium.ttf);
+}
+
+header{
+    padding-top: 33px;
+}
+
+
+.menu .menu_item{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    cursor: pointer;
+
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.menu .menu_item li:hover{
+    color:#070707;
+}
+
+.line{
+    width: 960.6px;
+    height: 0px;
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+
+    margin-top: 32px;
+}
+
+.header_title{
+    font-family: Gilroy-Bold;
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+    margin-top: 40px;
+}
+
+.header_subtitle{
+    margin-top: 95px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.header_language{
+    margin-top: 95px;
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+
+.header_language a{
+    text-decoration: none;
+    color: #828282;
+}
+
+.header_language a:hover{
+    color:#070707;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/*--------------------------------------------------------------------*/
+
+
+.about{
+    background: #F6F6F6;
+    min-height: 506px;
+    margin-top: 104px;
+    text-align: center;
+}
+
+.about_header{
+    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 18px;
+
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.about_text1{
+    width: 485px;
+    height: 218px;
+}
+
+.about_text{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 107px;
+}
+
+/*---------------------------------------------------------------*/
+
+
+
+
+.skills_head{
+    margin-top: 92px;
+    text-align: center;
+}
+
+
+.header_skills{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin:0 auto;
+}
+
+.skills_subheader{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    padding-top: 69px;
+}
+
+.buttons{
+    margin-top: 83px;
+}
+
+.photo_text{
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+
+    padding-top: 24px;
+}
+
+.star{
+    padding-top: 42px;
+}
+
+.star_figma{
+    padding-top: 57px;
+}
+
+/*--------------------------------------------------------------------------*/
+
+
+.portfolio{
+    min-height: 2253px;
+    background:#F6F6F6;
+    margin-top: 110px;
+}
+
+.portfolio_header{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+
+    padding-top: 113px;
+    padding-bottom: 47px;
+    margin: 0;
+}
+
+.portfolio a{
+    display: block;
+    text-align: center;
+    margin-top: 45px;
+    padding-bottom: 99px;
+    
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+.pic_1{
+    display: block;
+    margin: 0 auto;
+}
+
+/*----------------------------------------------------------*/
+
+
+.contacts{
+    min-height: 622px;
+    margin-top: 114px;
+}
+
+.contacts_header{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color:#070707;
+}
+
+.contacts_subheader{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+
+    padding-top: 20px;
+}
+
+.contacts_btn{
+    display: block;
+    margin: 0 auto;
+
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+
+
+    
+    width: 246px;
+    height: 52px;
+    /* border-radius: 50%; */
+    margin-top: 45px;
+
+
+
+}
+
+
+.social_btn{
+    width: 342px;
+    display: flex;
+    margin-top: 60px;
+}
+
+.contacts_text{
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+
+    padding-top: 45px;
+}
